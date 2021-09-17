@@ -150,7 +150,7 @@ class Footer extends Component {
                 <div className="footer-left">
                   <div className="circle orange-gradient form-sphere"></div>
                   <span className="copyright sm-caption">
-                    © 2019
+                    © 2021
                     <span className="subtitle">
                       {" "}
                       FACTS Research & Analytics.

@@ -34,7 +34,7 @@ export default class Trusted extends Component {
   }
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       autoplay: true,
       speed: 2000,
