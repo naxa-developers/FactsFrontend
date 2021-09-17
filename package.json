@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --env.PLATFORM=local --env.VERSION=stag --env.API_URL=http://139.59.67.104:8002/",
-    "prebuild": "npm run clean && webpack --mode production --config config/webpack.prod.config.js --env.PLATFORM=production --env.VERSION=stag --env.API_URL=http://139.59.67.104:8002/ --progress",
+    "prebuild": "npm run clean && webpack --mode production --config config/webpack.prod.config.js --env.PLATFORM=production --env.VERSION=stag --env.API_URL=https://app.factsnepal.com/ --progress",
     "build": "node server",
     "clean": "rimraf dist"
   },
